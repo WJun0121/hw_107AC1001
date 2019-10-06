@@ -1,0 +1,243 @@
+body{
+  width: 1260px;
+  height: 880px;
+  max-width: 1260px;
+  max-height: 880px;
+  min-width: 1260px;
+  min-height: 880px;
+	margin-left: auto;
+	margin-right: auto;
+  background-color: #edf2c5;
+}
+
+.vegetables {
+  width: 271px;
+  height: 62px;
+  font-family: Arial;
+  font-size: 44px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.82;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+  position:absolute;
+  top: 3px;
+  left: 160px;
+}
+
+.facebook{
+  width: 25px;
+  height: 25px;
+  position:relative;
+  top: 60px;
+  padding: normal;
+  margin-left: 900px;
+}
+
+.instagram{
+  width: 25px;
+  height: 25px;
+  position:relative;
+  top: 60px;
+  margin-left: 5px;
+  padding-right: 10px;
+  border-right: 1px solid #778a50;
+}
+
+.login{
+  width: 46px;
+  height: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #778a50;
+  padding: 5px 7px;
+  border: solid 1px #778a50;
+  border-radius: 10%;
+  position:absolute;
+  top: 45px;
+  left: 980px;
+}
+
+.join{
+  width: 35px;
+  height: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #778a50;
+  padding: 5px 7px;
+  border: solid 1px #778a50;
+  border-radius: 10%;
+  position:relative;
+  top: 16px;
+  left: 1050px;
+}
+
+.nav-list{
+  display:flex;
+  list-style:none;
+  width: 900px;
+  height: 44px;
+  background-color: #778a50;
+  border-radius: 3px;
+  position:relative;
+  left: 160px;
+  top: 18px;
+
+}
+
+.nav-list-item{
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #edf2c5;
+  padding: 0.5px;
+  margin-right: 60px;
+  position:relative;
+  left: -10px;
+}
+
+.pumpkin{
+  width: 940px;
+  height: 448px;
+  object-fit: contain;
+  position:relative;
+  left: 160px;
+  margin-top: 20px;
+}
+
+.vegetables-small{
+  width: 444px;
+  height: 45px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  border-radius: 3px;
+  background-color: #778a50;
+  box-sizing: border-box;
+  position:relative;
+  left: 160px;
+  margin-top: 27px;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.threeimage{
+  width: 140px;
+  height: 140px;
+  position:relative;
+  left: 160px;
+  margin-right: 8px;
+  margin-bottom: 35px;
+}
+
+.section{
+  width: 444px;
+  height: 45px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  border-radius: 3px;
+  background-color: #778a50;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-top: 5px;
+  position: relative;
+  margin-top: -240px;
+  left: 656px;
+}
+
+
+hr{
+  width: 414px;
+  height: 1px;
+  background-color: #7d7d7d;
+  position:absolute;
+  top: 770px;
+  left: 671px;
+}
+
+.contect-frist{
+  display:flex;
+  width: 414px;
+  height: 44px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+  background-color: #f7fbda;
+  position:relative;
+  margin-top: 15px;
+  padding: 15px;
+  left: 656px;
+}
+
+.contect-second{
+  width: 197px;
+  height: 35px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+  background-color: #f7fbda;
+  padding: 15px 232px 15px 15px; 
+  position:relative;
+  left: 656px;
+  margin-top: -13px;
+  margin-bottom: 35px;
+}
+
+.footer{
+  width: 1260px;
+  height: 60px;
+  background-color: #778a50;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  position:relative;
+  bottom: 0px;
+  box-sizing: border-box;
+  padding-left: 480px;
+}
